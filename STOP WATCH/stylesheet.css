@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0, 1));
+    background-size: cover;
+}
+.container {
+    background-image: linear-gradient(rgba(221, 13, 13, 1),rgb(26, 17, 17,1)),url(images/background.jpg) ;
+    /* background-image: linear-gradient(red,yellow); */
+    background-size: cover;
+    background-position: cover;
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+    padding: 40px,0;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: aquamarine;
+    background-image: linear-gradient(to right,rgba(23, 224, 191,1),rgba(0,0,0,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#timer {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: aqua;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container>.button>img>.img1{
+    height: 20px;
+}
+.button>img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
